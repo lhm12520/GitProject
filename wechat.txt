@@ -1,4 +1,6 @@
 {
+VERSION : 1.0.0
+“标题”:“this is sparda”,
         "button": [
             {
                 "name": "个人业务", 
