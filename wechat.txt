@@ -1,0 +1,95 @@
+{
+        "button": [
+            {
+                "name": "个人业务", 
+                "sub_button": [
+                    {
+                        "type": "click", 
+                        "name": "绑定/解绑", 
+                        "key": "CLICK_ACCOUNT_BIND", 
+                        "sub_button": [ ]
+                    }, 
+                    {
+                        "type": "click", 
+                        "name": "账户查询", 
+                        "key": "CLICK_BALANCE_QUERY", 
+                        "sub_button": [ ]
+                    }, 
+                    {
+                        "type": "click", 
+                        "name": "个人贷款", 
+                        "key": "CLICK_PersonLoan", 
+                        "sub_button": [ ]
+                    }, 
+                    {
+                    "type": "click", 
+                    "name": "海蕴理财", 
+                    "key": "CLICK_FinancialProduct", 
+                    "sub_button": [ ]
+                    }
+                ]
+            }, 
+            {
+                "name": "信用卡", 
+                "sub_button": [
+                    {
+                        "type": "click", 
+                        "name": "信用卡激活", 
+                        "key": "CLICK_CREDIT_ACTIVITY", 
+                        "sub_button": [ ]
+                    }, 
+                    {
+                        "type": "click", 
+                        "name": "我的额度", 
+                        "key": "CLICK_CREDIT_ACTQRY", 
+                        "sub_button": [ ]
+                    }, 
+                    {
+                        "type": "click", 
+                        "name": "我的账单", 
+                        "key": "CLICK_CREDIT_BILLQRY", 
+                        "sub_button": [ ]
+                    }, 
+                    {
+                        "type": "click", 
+                        "name": "信用卡分期", 
+                        "key": "CLICK_CREDIT_STAGE", 
+                        "sub_button": [ ]
+                    }
+                ]
+            }, 
+            {
+                "name": "生活服务", 
+                "sub_button": [
+                    {
+                        "type": "view", 
+                        "name": "客服热线", 
+                        "url": "http://mp.weixin.qq.com/s?__biz=MzAxNDAwODcwNg==&mid=422274704&idx=1&sn=2846e039e8069bc26eb16c52c05f5df6#rd"
+                    },                     
+                    {
+                        "type": "click", 
+                        "name": "位置服务", 
+                        "key": "CLICK_LOCATION_ACTIVITY", 
+                        "sub_button": [ ]
+                    }, 
+                    {
+                        "type": "click", 
+                        "name": "贷款计算器", 
+                        "key": "CLICK_LoanCalculator", 
+                        "sub_button": [ ]
+                    }, 
+                    {
+                        "type": "view", 
+                        "name": "意见反馈", 
+                        "url": "http://mp.weixin.qq.com/s?__biz=MzAxNDAwODcwNg==&mid=529875385&idx=1&sn=3f169045d5c4a772223dc5f52d915d5f&scene=19#wechat_redirect"
+                    }, 
+                    {
+                        "type": "click", 
+                        "name": "手机银行下载", 
+                        "key": "CLICK_PHONEAPPDOWN", 
+                        "sub_button": [ ]
+                    }
+                ]
+            }
+        ]
+    }
